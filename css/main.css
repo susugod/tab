@@ -1,0 +1,443 @@
+/* 
+* @Author: susu
+* 
+* @Date:   2017-06-21 17:04:59
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-05 17:17:40
+*/
+/*公共的字体*/
+.common-font{
+    font-size:16px;
+}
+/*招募信息部分*/
+.a-bg{
+    color:#ffffff;
+}
+.a-bg:hover{
+    color:#ffffff;
+}
+/*弹框效果*/
+.center-actived{
+    width:500px;
+    height:300px;
+    position:absolute;
+    top: 30%;
+    left:35%;
+    z-index: 9999;
+    overflow: auto;
+    background-color:#ffffff;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.black_overlay{
+    position:absolute;
+    top:0%;
+    left: 0%;
+    width:100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 6666;
+    -moz-opacity:0.3;
+    opacity:0.3;
+    filter: alpha(opacity=30);
+}
+.con-none{
+    float:right;
+    margin-top: 10px;
+    margin-right:10px;
+}
+.picc{
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+.center-actived p{
+    position: relative;
+    bottom: -50px;
+    left: 38%;
+    width: 50%;
+    font-size: 18px;
+}
+/*审核弹窗*/
+.face .picc{
+    position: relative;
+    top: 50px;
+    left: 40%;
+}
+.face h5{
+    font-size: 18px;
+    position: relative;
+    bottom: -50px;
+    left: 25%; 
+    width:280px;
+}
+/*调查问卷弹窗*/
+.ask-tan1{
+    position: relative;
+    bottom: -80px;
+    left: 25%; 
+    width:280px;
+    font-size: 16px;
+}
+.ask-tan2{
+    position: relative;
+    bottom: -90px;
+    left: 33%; 
+    width:280px;
+    font-size: 16px;
+}
+.face .btn1{
+    position:relative;
+    top:56%;
+    left:-28%;
+}
+.face .btn2{
+    position:relative;
+    top:56%;
+    left:-10%;
+}
+/*菜单栏选项的颜色*/
+.nav-active{
+    background-color:#4ca634 ;
+    color:#fff;  
+}
+.btn-list .panel-body {
+    padding: 8px 8px 8px 12px;
+}
+/*白色背景色*/
+.bg,.common-bg{
+    background-color: #fff;
+}
+.actived-bg img{
+    width: 100%;
+    z-index: 99;
+}
+/*中间内容样式*/
+.manage-active{
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    overflow: hidden;
+}
+.manage-active img{
+    float: left;
+}
+/*图片右侧文字*/
+.manage-active .caption{
+    float: left;
+    margin-left: 2%;
+}
+/*中间内容右侧列表*/
+.manage-right{
+    background-color: #fff;
+    overflow: hidden;
+}
+.manage-right img{
+    float: right;
+}
+.manage-right img{
+    width:120px;
+    height: 80px;
+}
+.manage-right .col-sm-7{
+    position: relative;
+    padding-right: 0px;
+    padding-left: 1%;
+}
+.manage-right h5{
+    line-height: 1.5;
+}
+
+/*按钮*/
+ .manage-active button{
+    float: right;
+    margin-top: 15%;
+    margin-right: 2%;
+}
+.con-center .col-sm-8{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.con-center .list-group{
+    padding-left: 5%;
+    margin-bottom: 0px;
+}
+/*活动详情*/
+.content-act caption h4,h5{
+        margin-top: 16px;
+}
+.common-active{
+    color:#45cc21;
+}
+.content-act .act{
+    padding-bottom: 0px;
+}
+.common-title3{
+    margin-top: -20px;
+    padding: 0px 15px;
+}
+.common-title3 h3{
+    margin:5px  0px;
+}
+/*文字段落*/
+.text{
+    text-indent: 2em;
+}
+.pic {
+    padding-left: 0px;
+}
+/*问卷介绍*/
+.test-bac{
+    font-size: 16px;
+    color: #000;
+    background-color: #ddd; 
+    border-color: #d6e9c6;
+}
+ .test-lang{
+    margin-top: -2%;
+ }
+.pad-bottom{
+    height:615px;
+ }
+.pad-bottom button{
+    float:right;
+    margin-right: 15px;
+  }
+.footer-wrap-bot{
+    background-color: #202425;
+    border-top: solid 1px #999;
+    padding: 20px 0 16px;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%; 
+}
+/*报名信息*/
+.there{
+    color:#555555;
+    padding-top: 6px;
+}
+.btns-pos{
+     margin-left: 112px;
+}
+.btns-pos button{
+    width:80px;
+}
+.btns-pos .btn-danger{
+    margin-left: 96px;
+}
+.star i{
+    color:red;
+}
+.star .panel-default{
+    margin-left: 1%;
+}
+.star a:hover{
+    color: black;
+    text-decoration: none;
+}
+.form-horizontal .numb {
+    padding-left: 1%;
+}
+/*报名状态*/
+.applay-state-title{
+    padding: 10px 2px;
+}
+.cha-list{
+    height:610px;
+}
+.find-header{
+    margin-left: -15px;
+}
+.find-list{
+    padding:0px;
+}
+.nav-pag{
+    height:50px;
+}
+.nav-pag .pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 8px 0;
+    border-radius: 4px;
+    float: right;
+}
+/*基本信息*/
+.btn-lis{
+    padding-left: 0px;
+}
+.btn-lis .btn{
+    width:100%;
+}
+.btn-base{
+    color:#fff;
+    background-color: #ee7701;
+}
+.arrow3:after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(../uploads/iconRight.png) no-repeat;
+    position: absolute;
+    right: 21px;
+    top: 18%;
+    margin-top: 2px;
+}
+/*左侧菜单上下距离*/
+.btn-lis-item{
+    margin-top: 8%;
+}
+/*个人查询*/
+.base-con .panel-default>.panel-heading{
+    background-color:#d9edf7 ;
+}
+/*底部按钮*/
+.edit-xiu{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+/*活动记录*/
+.search-result{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.search-result .search-num{
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.search-result .search-page{
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+/*测评部分*/
+.ask-con{
+    background-color: #fff;
+}
+/*未登录页面*/
+.ask-height{
+    height: 610px;
+}
+.ask-sorry{
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.ti-login{
+    width:339px;
+    height:164px;
+    line-height: 8;
+    text-align: center;
+    float:left;
+    background-image: url(../uploads/k.fw.png);
+    margin-left: 50px; 
+}
+.ti-login h1{
+    color:#4ca634;
+    padding-top:35px ;
+}
+.ti-login h5{
+    font-size: 16px;
+}
+.ti-login a{
+    color:#f68c50;
+}
+.pic-image{
+    width:106px;
+    height:164px;
+    float:left;
+}
+/*panel-body距离调整*/
+.panel-bottom{
+    margin-bottom:-25px;
+}
+/*上下内容距离*/
+.main-content{
+    border-bottom: solid 1px #eee;
+}
+ /*底部按钮 */
+ .buts-r{
+    margin-bottom: 15px;
+    margin-right: 15px;
+ } 
+ /*开始测试和查看按钮*/
+ .start-test,.find-report{
+    float:right;
+ }
+/*调查问卷的list*/
+.btn-lis{
+    height:580px;
+}
+.arrow4:after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(../uploads/iconRight.png) no-repeat;
+    position: absolute;
+    right: 21px;
+    top: 3%;
+    margin-top: -6px;
+}
+.arrow5:after{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(../uploads/iconRight.png) no-repeat;
+    position: absolute;
+    right: 21px;
+    top: 11%;
+    margin-top: -6px;
+}
+/*调查问卷测试题部分*/
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.checkbox-inline, .radio-inline {
+    position: relative;
+    display: block; 
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}
+/*个人中心*/
+/*panel-body距离调整*/
+.base-panel .panel-body{
+    margin-bottom: -20px;
+}
+/*性别选项*/
+.radio-sex{
+    position: relative;
+    display: inline-block; 
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: 0px;
+}
+.radio-woman{
+    position: relative;
+    display: inline-block; 
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+

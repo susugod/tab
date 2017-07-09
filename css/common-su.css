@@ -1,0 +1,17 @@
+/* 
+* @Author: Susu
+* @Date:   2017-06-22 16:03:51
+*/
+body{
+    font-family: "Microsoft Yahei";
+    background-color: #f0f0f0;
+}
+/*菜单栏选项的颜色*/
+.active{
+    background-color:#4ca634 ;
+    color:#fff;  
+}
+/*白色背景色*/
+.bg,.common-bg{
+    background-color: #fff;
+}

@@ -1,0 +1,46 @@
+/* 
+* @Author: Susu
+* @Date:   2017-05-24 13:08
+*/
+.bj{
+    width: 100%;
+    height: 100%;
+    background-image: url("../uploads/login.png");
+}
+.logo{
+    margin-top: 47px;
+    float: left;
+}
+.title{
+    font-family: 楷体;
+    font-size: 30px;
+    margin-top: 60px;
+    float:left;
+}
+.container .row{
+    margin-top: 100px;
+}
+
+.login-box .panel-heading{
+    background-color: #4b9e36;
+    padding: 31px 15px;
+}
+.login-box .panel-title{
+    font-family: 微软雅黑;
+    font-size: 30px;
+    color:#fff;
+}
+.login-box .form-control{
+    border-left: none;
+}
+.login-box .input-group-addon{
+    background-color: #fff;
+    border-right: none;
+    color:#4b6e36;
+}
+.login-box .btn-danger{
+    height:50px;
+    font-size: 18px;
+    border-color: #4b9e36;
+    background-color: #4b9e36;
+}

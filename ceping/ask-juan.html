@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>团体心理辅导活动管理系统</title>
+<link rel="icon" href="../ico/logo.ico" />
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<!--[if lt IE 8]>
+  <script src="../js/html5shiv.js"></script>
+  <script src="../js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="bg">
+  <div class="header-wrap container">
+        <!-- 顶部 -->
+      <div class="header">
+         <div class="row">
+          <!-- logo -->
+            <div class="logo col-md-6">
+                <div class="logo">
+                    <a href="../app/index.html"><img src="../ico/logo.png"></a>
+                </div>
+                <div class="pad-left">
+                  <h3>团体心理辅导活动管理系统</h3>
+                  <h6>www.ttxlffdhdglxt.com.cn</h6>
+                </div>
+            </div>  
+            <div class="col-md-6 row-r">  
+                <!-- 搜索框 --> 
+                <div class="search">
+                    <input type="text" class="form-control" value="请输入活动名称" />
+                    <img src="../ico/find.png" class="search-pic" alt="" />
+                </div> 
+                <!-- 登陆 -->
+                <div class="submit"><a href="../app/login.html">登陆</a></div>   
+            </div>
+          </div>  
+      </div>
+  </div>
+</div>
+<!-- 主导航栏  -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" id="navbar">
+        <li><a href="../app/index.html">首页</a></li> 
+        <li><a href="../actived-web/actived-fir.html">招募信息</a></li>
+        <li class="nav-bg"><a href="../ceping/ask-no.html">测评调查</a></li> 
+        <li><a href="../ative-jilu/lu.html">活动记录</a></li>
+        <li><a href="../applay-state/applay-state.html">报名状态</a></li>
+        <li><a href="../ge/base.html">个人中心</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- 背景图 -->
+<div class="actived-bg">
+    <img src="../uploads/actived-bg.png" alt="" />
+</div>
+<!-- 主体内容 -->
+<div class="con-center container">
+    <div class="panel-body">
+        <div class="col-sm-2 btn-lis">
+            <div class="btn btn-base arrow4 import-type-btn juan1">调查问卷</div>    
+            <div class="btn btn-lis-item btn-default arrow5 import-type-btn juan2">调查报告</div>
+        </div>
+        <!-- 调查问卷部分 -->   
+        <div class="col-sm-10 base-con content-show show1">
+            <!-- 问卷题目列表 -->
+          	<div class="panel panel-default common-font ask-juan-list">
+            	<div class="panel-heading">
+            	    <div class="panel-title"><i class="glyphicon glyphicon-th-large"></i>
+                        <label for="">调查问卷 </label>
+                    </div>
+            	</div>
+				<div class="panel-body form-inline main-content">
+					<div class="form-group ">
+                		<p>1.团体心里辅导活动症状测量表</p>
+            		</div>  
+            	  	<div class="form-group start-test">
+                		<button class="btn btn-primary">开始测试</button>
+            		</div>   
+            	</div>
+            	<div class="panel-body form-inline main-content">
+					<div class="form-group ">
+                		<p>2."学生预警"调查问卷</p>
+            		</div>  
+            	  	<div class="form-group start-test">
+                		<button class="btn btn-primary">开始测试</button>
+            		</div>   
+            	</div>
+            	<div class="panel-body form-inline main-content">
+					<div class="form-group ">
+                		<p>3.幼儿园科学教育活动中教师PCK评价量表</p>
+            		</div>  
+            	  	<div class="form-group start-test">
+                		<button class="btn btn-primary">开始测试</button>
+            		</div>   
+            	</div>
+            	<div class="panel-body form-inline main-content">
+					<div class="form-group ">
+                		<p>4.小学生安全教育测评</p>
+            		</div>  
+            	  	<div class="form-group start-test">
+                		<button class="btn btn-primary">开始测试</button>
+            		</div>   
+            	</div>
+        	</div>
+            <!-- 问卷介绍 -->
+            <div class="panel panel-default ask-juan-reduce" style="display:none">
+                <div class="panel-body panel-bottom">
+                    <h4>
+                        <img src="../uploads/small1.png" class='common-mu'>问卷名称
+                    </h4>
+                    <div class="alert test-bac" role="alert">团体心理辅导活动症状测量表</div>
+                </div>
+                <div class="panel-body">
+                    <h4>
+                        <img src="../uploads/small1.png" class='common-mu'>问卷介绍
+                    </h4>
+                    <div class="alert test-bac" role="alert">
+                        <p style="text-indent: 2em">斯诺佩评估量表(SNAP-IV)是由SwanSON,and Pelham等人1983年修订的评估量表。该量表用于筛查  注意缺陷多动障碍，主要评估伴随违抗性障碍的注意缺陷多动障碍的多动、冲动和注意力不集中等核心症状。</p>
+                        <p style="text-indent: 2em">
+                            注意缺陷多动障碍(attention deficit hyperactivity disorder,ADHD)是儿童期常见的一种行为障碍，患病率在1%-10%之间   ，表现在认知参与活动中，至于力不集中、注意缺乏持久性，活动量多且经常变换内容，行为冲突、唐突、不顾及后果。通常    起病于6岁以前，学龄前症状明显，随年龄增大逐渐好转，部分病例可延续到成年期。斯诺佩评估量表是一种有效的筛查注意 缺陷多动障碍的方法，它能将行为问题充分暴露。
+                        </p>    
+                    </div>
+                </div>
+                <div class="buts-r text-right">
+                    <button type="button" class="btn btn-danger ask-back">返回</button>
+                    <button type="button" class="btn btn-primary ask-next">下一步</button>
+                </div> 
+            </div> 
+            <!-- 问卷测试题 -->
+            <div class="panel panel-default ask-con ask-juan-title" style="display:none">
+               <div class="panel-body text-center">
+                    <h3>注意力广度的测试</h3>
+               </div>
+                <div class="panel-body">
+                    <h4>
+                        <img src="../uploads/small1.png" class='common-mu'>指导语
+                    </h4>
+                    <div class="alert test-bac common-font" role="alert">
+                        请务必根据孩子的实际情况，实事求是的回答每个问题，在每一个问题后的四个答案中选取与受测儿童实际情况最近的一个
+                    </div>
+                    <div class=" text-right">
+                        <button type="button" class="btn btn-danger ask-test-back">返回</button>
+                        <button type="button" class="btn btn-primary ask-test-next">下一页</button>
+                    </div> 
+                </div> 
+            </div>
+            <!-- 第一题 -->
+            <div class="panel-body ask-con ask-title1" style="display:none">
+                <div class="alert test-bac" role="alert">
+                    1.你平时是否关心自己的人缘？
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="radio-inline">
+                        <input type="radio" name="sexgroup" checked>A.是
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="sexgroup">B.否
+                    </label>
+                </div>
+                <div class=" text-right">
+                    <button type="button" class="btn btn-danger ask-test-back1">上一页</button>
+                    <button type="button" class="btn btn-primary ask-test-next1">下一题</button>
+                </div> 
+            </div>    
+            <!-- 第二题 -->
+            <div class="panel-body ask-con ask-title2" style="display:none">
+                <div class="alert test-bac" role="alert">
+                    2.你平时是否关心自己的人缘？
+                </div>
+                    <div class="form-group col-md-12">
+                    <label class="radio-inline">
+                        <input type="radio"  checked>A.是
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" >B.否
+                    </label>
+                </div>
+                <div class=" text-right">
+                    <button type="button" class="btn btn-danger ask-test-back2">上一题</button>
+                    <button type="button" class="btn btn-primary ask-test-next2">下一题</button>
+                </div> 
+            </div>        
+    	</div>
+        <!-- 报告部分 -->  
+        <div class="col-sm-10 base-con content-show show2" style="display:none">
+            <!-- 报告题目列表 -->
+            <div class="panel panel-default common-font  ask-report-list">
+                <div class="panel-heading">
+                    <div class="panel-title"><i class="glyphicon glyphicon-th-large"></i> 
+                        <label>调查报告</label> 
+                    </div>
+                </div>
+                <div class="panel-body form-inline main-content">
+                    <div class="form-group ">
+                        <p>1.团体心里辅导活动症状测量表</p>
+                    </div>  
+                    <div class="form-group find-report">
+                        <button class="btn btn-primary">查看报告</button>
+                    </div>   
+                </div>
+                <div class="panel-body form-inline main-content">
+                    <div class="form-group ">
+                        <p>2."学生预警"调查问卷</p>
+                    </div>  
+                    <div class="form-group find-report">
+                        <button class="btn btn-primary">查看报告</button>
+                    </div>   
+                </div>
+                <div class="panel-body form-inline main-content">
+                    <div class="form-group ">
+                        <p>3.幼儿园科学教育活动中教师PCK评价量表</p>
+                    </div>  
+                    <div class="form-group find-report">
+                        <button class="btn btn-primary">查看报告</button>
+                    </div>   
+                </div>
+                <div class="panel-body form-inline main-content">
+                    <div class="form-group ">
+                        <p>4.小学生安全教育测评</p>
+                    </div>  
+                    <div class="form-group find-report">
+                        <button class="btn btn-primary">查看报告</button>
+                    </div>   
+                </div>
+            </div>
+            <!-- 测试报告 -->
+            <div class="panel panel-default common-font ask-con ask-report-check"  style="display:none">
+                <div class="panel-body text-center">
+                    <h3>注意力广度的测试</h3>
+                </div>
+                <div class="panel-body">
+                    <h4>
+                        <img src="../uploads/small1.png" class='common-mu'>测试目的
+                    </h4>
+                    <div class="alert test-bac" role="alert">
+                       测量量表的定义:测量量表是指根据特定的法则，把数值分派到受试者、事物或行为上，以测量其特征标志的程度的数量化工具。
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <h4>
+                        <img src="../uploads/small1.png" class='common-mu'>量表内容
+                    </h4>
+                    <div class="alert test-bac" role="alert">
+                        <p>
+                          <label>1)你平时是:</label>
+                          在顺序量表中，数字只表示大小、等级或程序的顺序，它既没有相等的单位，也没有绝对的零点，换言之，它既不表示事物特征的真正 数量，也不表示绝对的数值，因此，不能进行代数运算。
+                        </p>
+                        <p>
+                          <label>2)你平时是:</label>
+                          在顺序量表中，数字只表示大小、等级或程序的顺序，它既没有相等的单位，也没有绝对的零点。
+                        </p>
+                         <p>
+                          <label>3)你平时是:</label>
+                          在顺序量表中，数字只表示大小、等级或程序的顺序，它既没有相等的单位，也没有绝对的零点，换言之，它既不表示事物特征的真正数量，也不表示绝对的数值，因此，不能进行代数运算。
+                        </p>
+                    </div>
+                </div> 
+                <div class="panel-body">
+                    <h4>
+                        <img src="../uploads/small1.png" class='common-mu'>测验结果
+                    </h4>
+                    <div class="alert test-bac" role="alert">
+                        <p>
+                          <label>1)你平时是:</label>
+                          在顺序量表中，数字只表示大小、等级或程序的顺序，它既没有相等的单位，也没有绝对的零点，换言之，它既不表示事物特征的真正 数量，也不表示绝对的数值，因此，不能进行代数运算。
+                        </p>
+                        <p>
+                          <label>2)你平时是:</label>
+                          在顺序量表中，数字只表示大小、等级或程序的顺序，它既没有相等的单位，也没有绝对的零点。
+                        </p>
+                         <p>
+                          <label>3)你平时是:</label>
+                          在顺序量表中，数字只表示大小、等级或程序的顺序，它既没有相等的单位，也没有绝对的零点，换言之，它 既不表示事物特征的真正 数量，也不表示绝对的数值，因此，不能进行代数运算。
+                        </p>
+                    </div> 
+                </div> 
+                <div class="buts-r text-right  find-test-back">
+                  <button type="button" class="btn btn-danger">返回</button>
+                </div>    
+            </div>
+        </div> 
+	</div>
+</div>
+<!-- 脚本 -->
+<script src="../js/jquery-1.9.1.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+$(function(){
+    // 左侧菜单切换
+    $('.import-type-btn').on('click',function(){
+        // var curIndex = $(this).index();
+        if($(this).hasClass('btn-default')){
+            $(this).removeClass('btn-default').addClass('btn-base');
+            $(this).siblings().removeClass('btn-base').addClass('btn-default');
+        }
+    // tab切换
+ 
+        // $('.content-show').eq(curIndex).slideDown().siblings('.content-show').slideUp(); 
+    });
+   
+    $('.juan1').on('click',function(){
+         $('.show1').slideDown().siblings('.show2').slideUp();
+         $('.ask-juan-list').show().siblings().hide(); 
+    })
+
+    $('.juan2').on('click',function(){
+         $('.show2').slideDown().siblings('.show1').slideUp();   
+         $('.ask-report-list').show().siblings().hide(); 
+
+    })  
+    // 开始测试按钮点击内容切换
+    $('.start-test').on('click',function(){
+         $('.ask-juan-reduce').slideDown().siblings('.ask-juan-list').slideUp();
+    })
+    // 返回
+    $('.ask-back').on('click',function(){
+        $('.ask-juan-list').slideDown().siblings('.ask-juan-reduce').slideUp();
+    })
+    // 点击下一步进行测试
+     $('.ask-next').on('click',function(){
+        $('.ask-juan-title').slideDown().siblings('.ask-juan-reduce').slideUp();
+      
+    }) 
+     // 返回
+    $('.ask-test-back').on('click',function(){
+        $('.ask-juan-reduce').slideDown().siblings('.ask-juan-title').slideUp(); 
+    })
+
+    // 查看报告点击内容切换
+    $('.find-report').on('click',function(){
+         $('.ask-report-check').slideDown().siblings('.ask-report-list').slideUp();
+        
+    })
+    // 返回
+    $('.find-test-back').on('click',function(){
+        $('.ask-report-list').slideDown().siblings('.ask-report-check').slideUp();
+    })
+    // 第一题
+    $('.ask-test-next').on('click',function(){
+        $('.ask-title1').slideDown().siblings('.ask-juan-title').slideUp();
+    })
+    // 返回上一题
+    $('.ask-test-back1').on('click',function(){
+        $('.ask-juan-title').slideDown().siblings('.ask-title1').slideUp();
+    })
+     // 第二题
+    $('.ask-test-next1').on('click',function(){
+        $('.ask-title2').slideDown().siblings('.ask-title1').slideUp();
+    })
+    // 返回上一题
+    $('.ask-test-back2').on('click',function(){
+        $('.ask-title1').slideDown().siblings('.ask-title2').slideUp();
+    })
+     
+        
+})
+
+</script>
+</body>
+</html>
